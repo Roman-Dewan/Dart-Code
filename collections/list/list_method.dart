@@ -37,6 +37,17 @@ void main(List<String> args) {
   print(data1);
 
   /// any
-  bool result = data.any((value) => value >= 5);
+  /// check is there any value in the list greater than 5 or not.
+  bool result = data1.any((value) => value >= 5);
   print(result);
+
+  /// list to map map
+  Map<int, int> data3 = data.asMap();
+  print(data3);
+  print(data3.values.toList());
+  print(data3.keys.toList());
+  print(data.asMap());
+
+  /// as Name map
+  // var data4 = data.
 }

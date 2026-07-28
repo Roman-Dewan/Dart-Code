@@ -1,5 +1,4 @@
 import 'dart:core';
-import 'dart:js_interop';
 
 void main(List<String> args) {
   print("\n---------properties------\n");
