@@ -49,5 +49,20 @@ void main(List<String> args) {
   print(data.asMap());
 
   /// as Name map
+
   // var data4 = data.
+
+  /// clear
+
+  // data.clear();
+  // print(data);
+
+  /// contains
+  print(data.contains(5));
+
+  /// element at
+  print(data.elementAt(4));
+
+  /// element at or null
+  print(data.elementAtOrNull(6));
 }
